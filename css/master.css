@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	font-family:"Segoe UI","Segoe UI Light","Segoe Script";
+  font-size-adjust:100%/1.4;
+  box-sizing:border-box;}
+body {
+  padding:0; 
+  margin:0;  
+	background-color:#EEE;
+  color:#333;
+	font-size:16px;}
+h1, h2, h3, h4, h5, h6 {
+	padding-left:0;
+	padding-right:0;
+	margin-left:0;
+	margin-right:0;
+	font-weight:normal;}
+a {
+	text-decoration:none;
+	color:inherit;
+	cursor:pointer;
+	display:inline-block;}	
+ol, ul, dl {
+	padding:0;
+	margin:0;
+	list-style-type:none;}
+ul li {
+	display:inline-block; 
+	vertical-align:top;}
+ol li {display:block;}	
+table {
+	width:100%;
+	border-collapse:collapse;}	
+th {cursor:default;}
+span {
+	display:inline-block;
+	vertical-align:top;}
+address {font-style:normal;}
+var {font-style:normal;}
+
+/* PREDEFINED */
+.wrap {margin:0 auto; width:600px;}
+.cover {margin:0 auto; width:800px;}
+.container {margin:0 auto; width:1024px;}
+.anchor {color:#0000EE; text-decoration:underline;}
+.anchor:visited {color:#551A8B;}
+.anchor:hover	{color:#551A8B; cursor:pointer;}
+.anchor:active {color:#EE0000;}
+.censor {background-color:#000; color:#000;}
+.nowrap {white-space:nowrap;}	
+.glow {box-shadow:0 0 30px #DDD;}	
+.shadow {box-shadow:0 1px 2px 0 #DDD;}	
+.engrave {text-shadow:0 1px #FFF;}
+.backdrop {
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment:fixed;
+	background-size:cover;
+	height:35em;}
+.tactile {
+  -webkit-transition:all .5s; /* Safari */
+  transition:all .5s;}	
+ol.number {list-style-type:decimal; list-style-position:inside;}
+ol.number li {display:list-item;}	
+ol.number_alpha {list-style-type:lower-alpha;}
+ol.number_roman {list-style-type:lower-roman;}
+ol.number_image {list-style-image:url('check.png');}	
+ul.bullet {list-style-type:disc; list-style-position:inside;}
+ul.bullet li {display:list-item;}	
+ul.bullet_square {list-style-type:square;}
+ul.bullet_circle {list-style-type:circle;}
+ul.bullet_image {list-style-image:url('check.png');}
+.rotate-up,
+.rotate-right,
+.rotate-down,
+.rotate-left {
+	display:inline-block};
+.rotate-up {
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);}
+.rotate-down {
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);}
+.rotate-right {
+	transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);}
+.rotate-left {
+	transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);}	
+
+/* FONTS
+font-family:Roboto, sans-serif;
+font-family:Verdana, Geneva, sans-serif; 
+font-family:"Segoe UI","Segoe UI Light","Segoe Script";	
+*/
+
+/* PALETTE
+Cyan 		#0093DD
+Lyan		#75C5F0	
+Dyan		#007BB8
+Pyan		#D81B60
+Call		#16BC00
+Blood		#EE1111
+BACKGROUND
+	Darker	#F4F4F4
+	Lighter	#F7F7F7
+	Footer	#373435
+META
+	Blue		#1A0DAB
+	Green		#006621
+LINKS
+	Blue		#0000EE
+	Purple 	#551A8B	
+	Red			#EE0000
+ANDROID
+	Android			#77C159
+	Mantis			#A4C639
+	Dark Green	#00574B
+	Light Green	#008577
+	Pink				#D81B60
+RAINBOW (ROYGBIV)
+	Red					#FF0000
+	Orange			#FF7F00	
+	Yellow			#FFFF00	
+	Green 			#00FF00	
+	Blue				#0000FF
+	Indigo			#4B0082
+	Violet			#9400D3
+	Magenta			#FF00FF
+BOOTSTRAP
+	Red					#DD4B39
+	Green				#00A65A	
+	Blue				#00C0EF	
+	Yellow			#F39C12
+	Dark Red		#C64333
+	Dark Green	#009551	
+	Dark Blue		#00ACD7	
+	Dark Yellow	#DA8C10
+FONT AWESOME
+	Red					#FF2615
+	Green				#1cCD650
+	Blue				#4BADDA
+	Yellow			#FFBA00
+W3SCHOOLS
+	Green				#4CAF50
+	Border			#F1F1F1	
+	Black				#5F5F5F		
+*/
+
+/* ENTITIES 
+&#9745; 	WHITE CHECKBOX
+&#9989; 	GREEN CHECKBOX
+&#10004;	EMPTY CHECK MARK
+&#10006;	BLACK X
+&#10060; 	RED X
+&#8594;		RIGHT ARROW
+&#127968; HOME
+&#8470; 	NO.
+&#9743; 	TELEPHONE
+&#9993; 	EMAIL
+&#127760; GLOBE
+&#128197; CALENDAR
+&#128338; CLOCK
+&#8635; 	RELOAD
+&#9998; 	PENCIL
+&#8358;		NAIRA
+&#10010;	PLUS
+&#9888;		CAUTION
+*/
+
+/* VIEWPORTS 
+opera.............768 x 1280
+bb................345 x 571
+tekno spark2......360 x 720
+infinix hot 8.....360 x 800
+infinix hot 6.....360 x 720
+samsung 9+........412 x 846
+tekno spark3......360 x 750
+
+@media only screen and (max-width:600px) {
+	
+}	
+
+@media only screen and (max-width:860px) {
+	
+}	
+*/

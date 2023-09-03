@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+form {
+	margin:0;
+}
+fieldset {
+	vertical-align:top;
+	display:inline-block;
+}
+label, input, select, textarea {
+	margin:5px 0;
+	min-width:195px;
+	max-width:195px;	
+	box-sizing:border-box;
+	display:block;
+}
+label {
+	font-weight:bold;
+}
+input[type="file"] {
+	border:solid thin;
+}	
+input[type="image"] {
+	min-width:50px;
+	max-width:50px;	
+}	
+input[type="radio"], 
+input[type="checkbox"] {
+	min-width:auto;
+	max-width:auto;	
+	display:inline-block;
+}	

@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+.home .banner {
+	color:#FFF;	
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment:fixed;
+	background-size:cover;
+	height:40em;}	
+
+.home .banner .caption {
+	padding:100px 20px 50px;
+	text-shadow:0px 1px #333;	
+	font-size:86px;
+	font-weight:bolder;}
+
+.home .banner .action a {
+	margin:0 20px;
+	padding:20px 30px;
+	font-size:14px;
+	font-weight:bold;
+	border-radius:5px;
+  -webkit-transition:all .2s; /* Safari */
+  transition:all .2s;}
+.home .banner .action a i {
+	margin:7px 0 0 10px;
+	float:right;
+	font-size:25px;
+	line-height:0;}
+.home .banner .action a:hover {
+	background-color:#FFF;}
+	
+
+
+
+
+.home .section_1 {
+	padding:20px 0 40px;
+	background-color:#FFF;
+	text-align:center;}	
+
+.home .section_1 .caption {
+	padding:60px 0;
+	font-size:48px;
+	font-weight:bolder;}
+	
+.home .section_1 ul li .tile {
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:cover;}
+.home .section_1 ul li .tile {
+	margin:0 20px;
+	background-color:#FFF;
+	width:280px;
+	height:300px;
+/*	border:solid thin #CCC;	*/
+	box-shadow:0 2px 4px 0 #CCC;}
+.home .section_1 ul li .title {
+	margin:20px;
+	font-size:18px;
+	font-weight:bold;}
+	
+.home .section_1 .action {
+	margin:40px 0;}
+.home .section_1 .action a {
+	padding:20px 30px;
+	color:#FFF;
+	font-size:14px;
+	font-weight:bold;
+	border-radius:5px;
+  -webkit-transition:all .2s; /* Safari */
+  transition:all .2s;}
+.home .section_1 .action a i {
+	margin:7px 0 0 10px;
+	float:right;
+	font-size:25px;
+	line-height:0;}
+	
+
+
+
+
+.home .section_2 {
+	padding:60px 0;
+	text-align:center;}	
+
+.home .section_2 .caption {
+	padding:20px 0 60px;
+	font-size:48px;
+	font-weight:bolder;}
+	
+.home .section_2 ul {
+	margin-bottom:30px;}	
+.home .section_2 ul li {
+	padding:40px 20px 30px;
+	margin:0 15px;
+	background-color:#FFF;
+	width:300px;
+	box-shadow:0 2px 4px 0 #CCC;}
+.home .section_2 ul li .thumb {}
+.home .section_2 ul li .subject {
+	margin:20px 0 10px;
+	font-size:18px;
+	font-weight:bold;}
+.home .section_2 ul li .article {
+	color:#555;
+	line-height:28px;}
+.home .section_2 ul li a {
+	margin-top:20px;
+	font-size:14px;
+	font-style:italic;
+	font-weight:bold;}
+
+.home .section_2 .action {
+	margin:40px 0;}
+.home .section_2 .action a {
+	padding:20px 30px;
+	color:#FFF;
+	font-size:14px;
+	font-weight:bold;
+	border-radius:5px;
+  -webkit-transition:all .2s; /* Safari */
+  transition:all .2s;}
+.home .section_2 .action a i {
+	margin:7px 0 0 10px;
+	float:right;
+	font-size:25px;
+	line-height:0;}
+	

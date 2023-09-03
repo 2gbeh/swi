@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+.about {
+	background-color:#FFF;
+	font-size:18px;}
+
+
+
+
+
+.about .section_1 {
+	padding:20px;		
+	margin:40px 0;}	
+.about .section_1	.title {
+	font-size:44px;
+	font-weight:bold;}
+.about .section_1	.article {
+	margin:40px 0;
+	font-size:24px;}	
+
+.about .section_1	ol {
+	list-style-position:inside;
+	list-style-type:decimal;}
+.about .section_1	ol li {
+	margin:20px 0;
+	display:list-item;
+	list-style-image:url("../img/check.png");}	
+	
+	
+	
+	
+
+.about .gallery ul {
+	text-align:center;}
+.about .section_2 ul li {
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-attachment:scroll;
+	background-size:cover;}
+.about .gallery ul li {
+	margin:5px;
+/*	background-color:#FFF;*/
+	width:380px;
+	height:500px;
+	box-shadow:0 2px 4px 0 #CCC;}
+	
+	
+	
+	
+	
+.about .project {
+	padding:20px 0;}
+.about .project table {
+	margin:20px 0;}
+.about .project table tr {
+	vertical-align:top;}
+.about .project table tr td {
+	padding:5px 20px 5px 0;}	
+.about .project table tr td .title {
+	font-size:18px;
+	font-weight:bold;}
+.about .project .date {
+	padding:10px 0 0;
+	color:#FFF;
+	width:80px;
+	height:80px;
+	text-align:center;
+	font-weight:bold;
+	border-radius:8px;
+	float:left;
+	clear:right;
+	display:inline-block;}
+.about .project .day {
+	font-size:24px;
+	display:block;}
+.about .project .year {
+	font-size:14px;}		
+	
+	
+	
+	
+	

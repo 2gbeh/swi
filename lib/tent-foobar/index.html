@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link type="image/png" href="favicon.png"  sizes="32x32" rel="icon" />
+  <title>Autofill Form</title>
+  <link type="text/css" href="master.css" rel="stylesheet" />  
+  <script type="text/javascript" src="master.js" required /></script>
+</head>
+<body onLoad="tent_foobar()">
+<!--<form action="MAILTO :</label>someone@example.com" method="post" enctype="text/plain">-->
+<form action="" method="get" enctype="multipart/form-data" autocomplete="off">
+<fieldset>
+	<legend>Sign up</legend>
+  <label>Profile photo :</label>
+  <input type="file" name="image" accept="image/*" required /> 
+  <label>First name :</label>
+  <input type="text" name="firstname" required autofocus />
+  <label>Last name :</label>
+  <input type="text" name="lastname" required />
+  <label>Choose sex :</label>
+  <input type="radio" name="sex" value="male" required /> Male
+  <input type="radio" name="sex" value="female" required /> Female
+  <input type="radio" name="sex" value="other" required /> Other  
+  <label>Choose fruit :</label>
+  <input type="radio" name="fruit" value="apple" required /> Apple
+  <input type="radio" name="fruit" value="banana" required /> Banana
+  <input type="radio" name="fruit" value="other" required /> Other
+  <label>Select gender :</label>
+  <select name="gender" required>
+    <option></option>  
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </select> 
+  <label>Marital status :</label>  
+  <select name="marital_status" required>
+    <option></option>  
+    <option value="single">Single</option>
+    <option value="married">Married</option>
+    <option value="other">Other</option>
+  </select>      
+  <label>Age range :</label>
+  <input type="range" name="scale" min="1" max="10" value="0" required />  
+  <label>Ranking :</label>
+  <input type="range" name="rank" min="1" max="10" value="0" required />
+</fieldset>  
+
+<fieldset>
+	<legend>Sign in</legend>
+  <label>Username :</label>  
+  <input type="search" name="username" list="hint" required />
+  <datalist id="hint">
+  	<option value="Apple" />
+  	<option value="Ball" />
+  	<option value="Cat" />        
+  </datalist>
+  <label>Password :</label>
+  <input type="password" name="password" required autocomplete="off" />  
+  <label>Email address :</label>
+  <input type="email" name="email" placeholder="handle@example.com" required />
+  <label>Phone number :</label>
+  <input type="tel" name="phone" maxlength="11" required />
+  <label>Quantity :</label>
+  <input type="number" name="qty" min="1" required />  
+  <label>Website :</label>
+  <input type="url" name="website" required />
+  <label>Favourite color :</label>
+  <input type="color" name="hexcode" required />  
+  <label>Home address :</label>
+  <textarea name="address" required></textarea>  
+</fieldset>  
+
+<fieldset>    
+	<legend>Sign out</legend>
+  <label>Comment :</label>
+  <textarea name="comment" required></textarea>    
+  <label>Date of birth :</label>
+  <input type="date" name="dob" required />  
+  <label>Time :</label>
+  <input type="time" name="time" required />
+  <label>Timestamp :</label>
+  <input type="datetime-local" name="timestamp" required />      
+  <label>Month :</label>
+  <input type="month" name="month" required />
+  <label>Week :</label>
+  <input type="week" name="week" required />    
+  <label>Hidden field :</label>
+	<input type="hidden" name="id" required />
+  <input type="checkbox" name="terms" required /> I am not a Robot!  <br/>
+  <input type="checkbox" name="terms" required /> I am not a Human!    
+	<input type="image" src="button.gif" alt="Submit" />  
+</fieldset>  
+
+<p></p>
+<button type="reset">Clear</button>
+<button type="submit">Save</button>
+<button type="button">Delete</button>
+</form> 
+</body>
+</html>

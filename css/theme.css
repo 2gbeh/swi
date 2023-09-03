@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* PRUPLE */
+.home .section_1 .action a, 
+.home .section_2 .action a:hover, 
+.base .section_2 form button, 
+.about .project .date {
+	background-color:#590660;}
+
+.template header .menu li a,
+.home .section_2 a {
+	color:#590660;}	
+
+ {
+	border-color:#590660;}		
+	
+	
+/* GOLD */
+.home .banner .action a, 
+.home .section_1 .action a:hover, 
+.home .section_2 .action a {
+	background-color:#9E9C2B;}
+	
+.template header .menu li a:hover, 
+.home .banner .action a:hover {
+	color:#9E9C2B;}
+	
+ {
+	border-color:#9E9C2B}	
+
+
+
+/* GREEN */
+.base .section_2 form button:hover {
+	background-color:#03B664;}
+	
+.base .section_1 .important,
+.base .section_2 .important {
+	color:#03B664;}
+	
+.base .section_2 form input:focus, 
+.base .section_2 form select:focus, 
+.base .section_2 form textarea:focus,  {
+	border-color:#03B664;}		
